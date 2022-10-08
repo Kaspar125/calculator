@@ -1,0 +1,27 @@
+.calc-grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+    gap: 50px;
+    height: 100%;
+    width: 50%;
+   
+ 
+ 
+ }
+ .number:hover {
+    background-color: rgb(163, 163, 238);
+
+ }
+ .result {
+margin-top: 30px;
+font-size: 30px;   
+font-weight: 700;
+ }
+ .input {
+    margin-top: 20px;
+    margin-left: 50px;
+
+ }
